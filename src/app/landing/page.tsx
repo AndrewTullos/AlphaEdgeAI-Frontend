@@ -29,7 +29,7 @@ import Navbar from "../../components/navbar"
 // import { ANALYTICS_DATA, RECENT_SALES } from "@/constants/dashboard";
 
 
-function Page() {
+function page() {
   const canvasRef = useRef<HTMLCanvasElement>(null)
   const animationRef = useRef<number>(0)
   const mousePosition = useRef({ x: 0, y: 0 })
@@ -361,4 +361,4 @@ function Page() {
   )
 }
 
-export default Page
+export default page
