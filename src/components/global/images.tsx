@@ -1,8 +1,8 @@
 import { LucideProps } from "lucide-react";
 
-type IconType = {
-    [key: string]: (props: LucideProps) => JSX.Element;
-};
+// type IconType = {
+//     [key: string]: (props: LucideProps) => JSX.Element;
+// };
 
 // currentColor
 
